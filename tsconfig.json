@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    // 源文件中用到的一些新语法会被编译成指定版本所支持的语法
+    "target": "es2020",
+    // 编译后文件会遵从指定的模块化规范
+    "module": "node16",
+    // 影响模块导入导出时的解析策略
+    "moduleResolution": "node16"
+  },
+  "ts-node": {
+    "esm": true
+  }
+}

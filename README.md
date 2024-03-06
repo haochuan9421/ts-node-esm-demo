@@ -1,0 +1,1 @@
+使用 `ts-node` 时开启 `esm` 模式的最简化 Demo。可执行 `npx ts-node-esm src/index.ts` 验证。需要说明的最高可兼容的 Node.js 版本是 v18.18.2，从 v18.19.0 就不行了，最新的 v16.x (v16.20.2) 是可以的。目前看这是一个 ts-node 的 [BUG](https://github.com/TypeStrong/ts-node/issues/2100)，更高版本的支持可能需要等待 ts-node 更新了。如果想在更高版本使用，可以执行 `node --no-warnings=ExperimentalWarning --loader ts-node/esm src/index.ts`，但不清楚这么做会不会有坑。
