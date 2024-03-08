@@ -1,4 +1,5 @@
 {
+  "include": ["src/**/*", "typings/**/*"],
   "compilerOptions": {
     // 源文件中用到的一些新语法会被编译成指定版本所支持的语法
     "target": "es2020",
@@ -8,6 +9,7 @@
     "moduleResolution": "node16"
   },
   "ts-node": {
-    "esm": true
+    "esm": true,
+    "files": true
   }
 }
